@@ -1,0 +1,183 @@
+/* https://i.postimg.cc/SxPt8CW7/zayn.png */
+body {
+	width: 100%;
+	height: 100vh;
+	margin: 0;
+	padding: 0;
+	background: url("https://i.postimg.cc/SxPt8CW7/zayn.png");
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-position: center;
+	font-family: 'Comfortaa', cursive;
+}
+header {
+	top: 0;
+	width: 100%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	position: fixed;
+	justify-content: center;
+	-webkit-box-pack: center;
+	-ms-flex-pack: center;
+}
+header nav {
+	width: 70%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+}
+header nav ul {
+	width: 60%;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	flex-wrap: wrap;
+	align-items: center;
+	flex-direction: row;
+	justify-content: flex-end;
+	-webkit-box-align: center;
+	-webkit-box-orient: horizontal;
+	-webkit-box-direction: normal;
+	-webkit-box-pack: end;
+	-ms-flex-align: center;
+	-ms-flex-pack: end;
+}
+header nav ul li {
+	color: #ffffff;
+	margin: 8px;
+	cursor: pointer;
+	padding: 3px;
+	list-style: none;
+	font-weight: 900;
+	font-family: 'Comfortaa', cursive;
+	border-bottom: 2px solid transparent;
+	letter-spacing: 2px;
+	transition: 200ms ease-in-out;
+}
+header nav ul li:hover {
+	border-bottom: 2px solid #ffffff;
+}
+header nav ul .buy {
+	width: 15%;
+	height: 10px;
+	border: 2px solid;
+	padding: 10px;
+	min-width: 40px;
+	max-width: 50px;
+	text-align: center;
+	line-height: 10px;
+	font-weight: 900;
+	border-radius: 10px;
+	letter-spacing: 3px;
+	text-transform: lowercase;
+}
+header nav ul .buy:hover {
+	color: #fa3380;
+	border: 2px solid #ffffff;
+	background: #ffffff;
+	text-transform: uppercase;
+}
+header nav ul .active {
+	border-bottom: 2px solid;
+}
+header nav .logo {
+	-webkit-box-flex: 1;
+	-ms-flex: 1;
+	flex: 1;
+	color: #ffffff;
+	margin-top: 6px;
+	margin-left: 10px;
+}
+header nav .logo h1 {
+	font-weight: 900;
+	font-family: 'Roboto', sans-serif;
+}
+header nav .logo h1 span {
+	font-weight: 100;
+}
+.middle-header {
+	width: 100%;
+	height: 100vh;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	z-index: 100;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-box-pack: center;
+	-ms-flex-align: center;
+	-ms-flex-pack: center; 
+}
+.middle-header .main {
+	width: 90%;
+	z-index: 100;
+	display: -webkit-box;
+	display: -ms-flexbox;
+	display: flex;
+	margin-top: -150px;
+	align-items: center;
+	flex-direction: column;
+	justify-content: center;
+	-webkit-box-align: center;
+	-webkit-box-orient: vertical;
+	-webkit-box-direction: normal;
+	-webkit-box-pack: center;
+	-ms-flex-align: center;
+	-ms-flex-pack: center;
+}
+.middle-header .main h1 {
+	color: #ffffff;
+	font-size: 135px;
+	font-weight: 100;
+	font-family: 'Roboto', sans-serif;
+}
+.middle-header .main p {
+	color: #ffffff;
+	font-size: 17px;
+	font-weight: 900;
+	margin-top: 30px;
+	letter-spacing: 1px;
+}
+.middle-header .main button {
+	width: 27%;
+	color: #ffffff;
+	border: 2px solid #ffffff;
+	outline: none;
+	padding: 15px;
+	font-size: 18px;
+	max-width: 230px;
+	min-width: 230px;
+	background: transparent;
+	border-radius: 10px;
+	letter-spacing: 2px;
+	-webkit-transition: 200ms ease-in-out;
+	-o-transition: 200ms ease-in-out;
+	transition: 200ms ease-in-out;
+}
+.middle-header .main button:hover {
+	color: #fa3380;
+	background: #ffffff;
+	text-transform: uppercase;
+	transition: .5s ease;
+	cursor: pointer;
+}
+.middle-header .main .line {
+	width: 80%;
+	height: 3px;
+	max-width: 300px;
+	margin-top: -80px;
+	background: #ffffff;
+}
+@media only screen and (max-width: 432px) {
+	.middle-header .main h1 {
+		font-size: 110px;
+	}
+	.middle-header .main .line {
+		margin-top: -50px;
+	}
+}
